@@ -1,0 +1,50 @@
+#title{
+	float:left;
+	margin-bottom:0px;
+	font-size:3em;
+	padding-left:30px;
+}
+
+#btn-create-wishlist{
+	float:right;
+	color:#d6b5b4;
+}
+
+#btn-create-wishlist:hover{
+	color:#54344b;
+}
+
+
+.pagination>li>a,.pagination>li>span{
+	color:#757C43;
+	background-color:#fff;
+	border:1px solid #ddd;
+}
+.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus{
+	color:#373A1F;
+	background-color:#eee;
+	border-color:#ddd;
+}
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus{
+	color:#fff;
+	background-color:#737562;
+	border-color:#737562;
+}
+.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{
+	color:#999;
+	background-color:#fff;
+	border-color:#ddd;
+}
+
+.media-body {
+	width: 100%;
+}
+
+.media-left {
+	width: 20%;
+}
+
+.media {
+	width: 100%;
+}
+

@@ -1,0 +1,157 @@
+.post-action-author{
+  font-size: 1.3em;
+  line-height: 38px;
+color:#54344B;
+	 letter-spacing: 1px;
+}
+.post-action-action{
+  line-height: 30px;
+  font-size: 15px;
+ color:#54344B;
+ letter-spacing: 1px;
+}
+
+.post-action-time{
+
+  font-size: 13px;
+   color:#CA8888;
+   margin:0px;
+  letter-spacing: -1px;
+}
+
+.item-name{
+	font-size: 20px;
+}
+
+
+
+.wishlistContainer { overflow: hidden;}
+.wishlistContainer * { overflow: hidden;}
+.wishlistContainer > * { display: block; }
+header { padding: 10px; }
+.wishlistContainer footer { margin-top: 10px; margin-bottom: 20px; float: right; }
+
+.wishlistBody {
+	border: solid 1px gray;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.panel-wall ol, header>.row>ol{ list-style: none;}
+.panel-wall hr {margin: 5px 0; }
+.panel-wall li img , header>.row>li img{ float: left; margin: 5px;}
+.panel-wall li , header>.row>li{position: relative;}
+.panel-wall .itemBody {padding-right: 45px;}
+.panel-wall li .itemBody  * { margin: 0 0;}
+.panel-wall li input { margin-left: 5px; float: right; }
+.panel-wall li .itemCheckBox {
+	padding: 15px;
+	position: absolute; right: 0; top: 0
+}
+.panel-wall li .itemCheckBox { display: block; margin: 0 0; text-align: right;}
+
+
+
+header>.row li img{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 7px;
+}
+
+.rating-disabled::before .clear-rating{
+	visibility:hidden;
+}
+
+.wishlist-view{
+	-webkit-box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 1px 12px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.75);
+	border-color:#fe7105;
+	margin-top:10px;
+}
+
+
+
+/***************************************************** hr ***********************************/
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: #705e4f;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #705e4f;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Gradient color1 - color2 - color1 */
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: gray;
+    background-image: -webkit-linear-gradient(left, #ccc, gray, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, gray, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, gray, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, gray, #ccc);
+}
+
+.checkbox-lg input[type=checkbox] {
+	/* All browsers except webkit*/
+  transform: scale(1.5);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(1.5);
+  
+}
+
+.wishlist-view-item{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.wishlist-view-item-info{
+	padding-top:10px;
+}
+
+.wishlist-view-item-chkbox-centered{
+	text-align:center;
+	margin-top:80px;
+}
+
+.wishlist-view-options{
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+
+/*
+@media (min-width:900px){
+.checkbox{
+	text-align:center;
+	padding-top:50%;
+	
+}
+}
+*/
+/* Small devices (tablets, 768px and up) */
+/*
+@media (min-width: @screen-sm-min) {
+	.checkbox{
+		text-align:center;
+		margin-top:0px;
+	
+	}
+
+}*/
+
+
+

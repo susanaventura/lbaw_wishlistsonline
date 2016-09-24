@@ -1,0 +1,28 @@
+.friend_not_item_list img{
+float:right; padding:10px;
+}
+
+.friend_not_item_list .date{
+	text-align:center;
+}
+
+.notification-not-seen{
+background-color:#e5e3e1;
+}
+
+
+.friend_not_item_list .username{
+	text-align:center;
+}
+
+.friend_not_item_list .btns{
+	text-align:center;
+}
+
+#friend_req_not_link+ul{
+list-style-type: none;
+}
+
+hr.separator{
+margin:0;
+}

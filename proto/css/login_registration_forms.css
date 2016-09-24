@@ -1,0 +1,20 @@
+.vertical-registration-form{
+	background: rgba(0,0,0,0.5);
+	padding-left:30px;
+	padding-right:30px;
+	width:100%;
+	max-width:700px;
+	padding-bottom:30px;
+	padding-top:10px;
+}
+
+input[type=radio] {
+	/* All browsers except webkit*/
+  transform: scale(1.5);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(1.5);
+  
+  margin: 5px;
+  margin-bottom: 20px;
+}

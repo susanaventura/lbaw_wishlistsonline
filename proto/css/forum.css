@@ -1,0 +1,50 @@
+
+
+.forumContainer {
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+}
+
+
+.forumPostOption:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.forumRate{
+	padding: 3px;
+	margin-top:10px;
+}
+
+.forumRateIcon-up{
+	color:#8FBC8E;
+}
+.forumRateIcon-up:hover{
+	color:#629449;
+}
+.forumRateIcon-down{
+	color:#F85A5A;
+}
+.forumRateIcon-down:hover{
+	color:#F52929;
+}
+.forumRateIcon:hover {
+	cursor: pointer;
+}
+
+.forum-post-reply{
+	padding-left:50px;
+}
+
+.forum-post {
+	margin-top:20px;
+}
+
+.forum-rate-positive.marked>span{
+	color:#629449;
+}
+.forum-rate-negative.marked>span{
+	color:#F52929;
+}

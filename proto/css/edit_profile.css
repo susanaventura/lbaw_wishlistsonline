@@ -1,0 +1,21 @@
+#editProfile-title{
+	margin-bottom:0px;
+	font-size:3em;
+	padding-left:30px;
+}
+
+.erase-account-icon{
+	color:#F85A5A;
+	margin-right:10px;
+}
+
+.btn-SaveProfile{
+	margin-left:10px;
+	background-color:#d6b5b4;
+	color:white;
+}
+
+.btn-SaveProfile:hover{
+background-color:#54344b;
+color:white;
+}

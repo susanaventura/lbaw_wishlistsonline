@@ -1,0 +1,3 @@
+
+DROP INDEX IF EXISTS authenticated_user_search_tsvector_gin_idx;
+CREATE INDEX authenticated_user_search_tsvector_gin_idx ON wishlists_online_dev.authenticated_user USING GIN(search_tsvector);

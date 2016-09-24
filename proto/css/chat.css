@@ -1,0 +1,9 @@
+.username-chat{
+	font-size:13px;
+	line-height:40px;
+	color:#54344B;
+}
+
+.username-chat:hover{
+text-decoration:none;
+}

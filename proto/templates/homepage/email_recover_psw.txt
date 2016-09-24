@@ -1,0 +1,11 @@
+Hi {USERNAME},
+
+You have initiated a password recovery process. Your new password is: {TEMP_PSW}
+
+In order to activate this new password and complete your password recovery process, please confirm your intentions by clicking the link below!
+
+This link is valid until <strong>{EXP_DATE}</strong>. After that you have yo repeat the all process if you haven't yet confirmed your new password.
+
+{SITEPATH}/recoverPsw.php?email={EMAIL}&key={KEY}
+
+Thanks!

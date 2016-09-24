@@ -1,0 +1,34 @@
+<form role="form" id="login-form" class="vertical-registration-form" style="margin-top: 60px;">
+	<h2>Please Login</h2>
+	<hr class="colorgraph">
+	
+	<div class="top-margin" id="login-username">
+		<label>Username/Email <span class="text-danger">*</span></label>
+		<input name="username" type="text" class="form-control form-control-custom">
+	</div>
+	<div class="top-margin" id="login-password">
+		<label>Password <span class="text-danger">*</span></label>
+		<input name="password" type="password" class="form-control form-control-custom" >
+	</div>
+	
+	<div id="login-inactive-warning" class="alert alert-warning" role="alert" style="margin-top: 10px;" hidden><i class="fa fa-exclamation-triangle fa-3x"></i>   You must activate your account before you can login on the website. Please check your email!</div>
+	
+	<hr>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<b><a href="../api/fbconfig.php">Login with Facebook</a></b>
+			<b> | </b>
+			<b><a href="" id="pswRecover">Forgot your password?</a></b>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<input type="button" value="Login" id="btn-login" class="btn btn-success btn-lg btn-block">
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+					<a id="btn-get-registered" class="btn btn-primary btn-lg btn-block">Get registered</a>
+			</div>
+		</div>
+</form>

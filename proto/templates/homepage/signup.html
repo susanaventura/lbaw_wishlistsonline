@@ -1,0 +1,94 @@
+
+	<form role="form" class="vertical-registration-form" id="registration-form">
+		<h2 style="padding-top:10px;">Please Sign Up</h2>
+		<hr class="colorgraph">
+		
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="form-group">
+					<label>firstname <span class="text-danger">*</span></label>
+					<input type="text" name="first_name" id="input-signup-firstname" class="form-control form-control-custom" placeholder="" tabindex="1" required>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="form-group">
+					<label>lastname <span class="text-danger">*</span></label>
+					<input type="text" name="last_name" id="input-signup-lastname" class="form-control form-control-custom" placeholder="" tabindex="2" required="true">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div id="signup-username" class="form-group">
+					<label>username <span class="text-danger">*</span></label>
+					<input type="text" id="input-signup-username" name="username" class="form-control form-control-custom" placeholder="" tabindex="3" required>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div id="signup-email" class="form-group">
+					<label>email <span class="text-danger">*</span></label>
+					<input type="email" name="email" id="input-signup-email" class="form-control form-control-custom" placeholder="" tabindex="4" required>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div id="signup-password" class="col-xs-12 col-sm-6 col-md-6">
+				<div class="form-group">
+					<label>password <span class="text-danger">*</span></label>
+					<input type="password" name="password" id="input-signup-password" class="form-control form-control-custom" placeholder="" tabindex="5" required>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="form-group">
+					<label>password confirmation <span class="text-danger">*</span></label>
+					<input type="password" name="password_confirmation" id="input-signup-password-confirm" class="form-control form-control-custom" placeholder="" tabindex="6" required>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="form-group">
+					<label>country <span class="text-danger">*</span></label>
+					<select id="input-signup-country" name="country" class="form-control" tabindex="7" required>
+					  <option value=""></option>
+					  <option value="2">Portugal</option>
+					  <option value="3">Spain</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<div id="signup-birth" class="form-group">
+					<label>birth <span class="text-danger">*</span></label>
+					<input id="input-signup-birth" type="date" class="form-control form-control-custom" name="birth" required>
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div id="group-gender" class="form-group">
+					<label>gender <span class="text-danger">*</span></label><br>
+					<div class="btn-group" data-toggle="buttons">
+						<label class="btn btn-default">
+							<input type="radio" name="gender" value="M" /> Male
+						</label>
+						<label class="btn btn-default">
+							<input type="radio" name="gender" value="F" /> Female
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<label id="signup-required-warning" class="text-danger" hidden>All items are required <span class="text-danger">*</span></label>
+		
+		<hr>
+		
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				<input id="btn-signup" type="button" value="Register" class="btn btn-success btn-lg btn-block" >
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6">
+					<a id="btn-go-login" class="btn btn-primary btn-lg btn-block">Already have an account</a>
+			</div>
+		</div>
+	</form>
